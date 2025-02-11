@@ -147,7 +147,7 @@ function handleRadioButtonChange(radioButton) {
 
   totalOldPrice.textContent = formatPrice(oldPrice);
   totalNewPrice.textContent = formatPrice(actualPrice);
-  totalDiscount.textContent = 'uštedite ' + formatPrice((oldPrice - actualPrice));
+  totalDiscount.textContent = 'uštedjeti ' + formatPrice((oldPrice - actualPrice));
 
 
   // update link for selected package
